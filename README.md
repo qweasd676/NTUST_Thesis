@@ -2,6 +2,9 @@
 # 基於深度學習之3D蚱蜢運動研究
 # Study of 3D grasshopper motion with deep learning
 
+本論文的成果網站：https://sites.google.com/view/asrlabinsectdataset
+有任何想詢問的歡迎寄信詢問：a0939686663@gmail.com
+
 All program codes：
 
 1. C++環境： 
