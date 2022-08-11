@@ -48,12 +48,12 @@
     3. 使用高速相機拍攝相機校正所需要的圖片，cd ./calibration_save_image 。
         1. 開啟./build/execute.sh，將標定版放入相機範圍內，按下enter進行拍攝。
 3. 資料前處理：
-    1. 首先安裝https://github.com/PeterL1n/BackgroundMattingV2的環境，我們要把拍攝到的照片前景背景分離。
+    1. 首先安裝 https://github.com/PeterL1n/BackgroundMattingV2 的環境，我們要把拍攝到的照片前景背景分離。
         1. 使用run.sh，裡面可以修改模型參數，修改你的來源影片以及要輸出的結果，由於我們是使用需要背景圖的AI模型，所以需要拍攝一張背景圖。
     2. 接著我們要將前後景分離完的影片進行影像處理，首先cd ./image_processing。
         1. 在main.pay裡，呼叫了opencv.py，其主要功能是將蚱蜢的輪廓進行優化，如修復遺失的邊緣輪廓以及過濾雜訊。
         2. 而在./src中，有image_to_video.py, video_to_jpg.py以及rename_image.py處理資料格式。
-4.   2D動物姿態評估DLC(DeepLabCut)，請先下載https://github.com/DeepLabCut/DeepLabCut的環境:
+4.   2D動物姿態評估DLC(DeepLabCut)，請先安裝 https://github.com/DeepLabCut/DeepLabCut 的環境:
     1. 請先把【2.5小时入门DeepLabCut (1~6) Overview-哔哩哔哩】 [https://b23.tv/TdCh5Uo](https://b23.tv/TdCh5Uo) 系列的影片看完對DLC有基礎的了解。
     2. Cd ./jump_b0/locust-jump_mvs-2022-06-19．
         1. 在DLC中有分GUI和juypterlab去進行。
