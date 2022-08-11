@@ -1,4 +1,7 @@
 # NTUST_Thesis
+#基於深度學習之3D蚱蜢運動研究
+#Study of 3D grasshopper motion with deep learning
+
 08_All program codes：
 
 1. C++環境： 
